@@ -112,26 +112,6 @@ Ao executar `/motion:wizard`, você apenas responde 5 etapas simples:
 
 ---
 
-## 📦 Como Publicar no NPM
-
-Se você for o mantenedor e desejar publicar novas versões no registro oficial do NPM:
-
-```bash
-# 1. Faça login na sua conta do NPM (apenas uma vez)
-npm login
-
-# 2. Navegue até a pasta do omni-motion
-cd omni-motion
-
-# 3. Teste o funcionamento do CLI
-node bin/motion.js doctor
-
-# 4. Publique como pacote público
-npm publish --access public
-```
-
----
-
 ## 🤝 Contribuição e Licença
 
 Desenvolvido com 💚 no Brasil por [LimaEdu-7x](https://github.com/LimaEdu-7x).  
