@@ -1,0 +1,50 @@
+{
+  "name": "omni-motion",
+  "version": "1.0.0",
+  "description": "Universal Motion Graphics & Video Editing Engine for AI Coding Agents (/motion). Built on the RMA Method (Reference, Motor, Adjust), integrating HyperFrames, Genjutsu, RAEA, OpenMontage, Remotion, FFmpeg, Whisper, OmniCreator, OmniRSM, and OmniSFX.",
+  "main": "bin/motion.js",
+  "bin": {
+    "omni-motion": "bin/motion.js",
+    "motion": "bin/motion.js"
+  },
+  "scripts": {
+    "start": "node bin/motion.js",
+    "test": "node bin/motion.js doctor"
+  },
+  "keywords": [
+    "motion",
+    "motion-graphics",
+    "video",
+    "video-editing",
+    "hyperframes",
+    "rma-method",
+    "metodo-rma",
+    "remotion",
+    "gsap",
+    "ffmpeg",
+    "whisper",
+    "ai-agent",
+    "agent-skill",
+    "claude-code",
+    "antigravity",
+    "cursor",
+    "windsurf",
+    "omni-creator",
+    "omni-rsm",
+    "omni-sfx",
+    "brazil"
+  ],
+  "author": "LimaEdu-7x",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LimaEdu-7x/omni-motion.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LimaEdu-7x/omni-motion/issues"
+  },
+  "homepage": "https://github.com/LimaEdu-7x/omni-motion#readme",
+  "dependencies": {
+    "prompts": "^2.4.2"
+  }
+}
